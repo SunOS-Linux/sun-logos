@@ -4,8 +4,8 @@
 %global debug_package %{nil}
 
 Name:       sunoslinux-logos
-Version:    81.1
-Release:    1%{?dist}.sol
+Version:    82.0
+Release:    beta%{?dist}.sol
 Summary:    Sun/OS Linux-related icons and pictures
 
 Group:      System Environment/Base
@@ -218,6 +218,8 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 
 
 %changelog
+* Fri May 14 2021 Abdon Morales <abdon.morales13_2022@outlook.com> - 82.0-beta
+-Inital build for Sun/OS Linux 8.4 beta
 * Mon May 3 2021 Abdon Morales <abdon.morales13_2022@outlook.com> - 81.1-1.sol
 - Add Sun/OS Linux brands
 - Add Sun/OS Linux backgrounds

@@ -1,43 +1,29 @@
-The almalinux-logos package and the anaconda-images package (the "Packages")
-contain image files which incorporate the AlmaLinux trademark and the 
-AlmaLiux logo (the "Marks").  AlmaLinux, the AlmaLinux logo are trademarks 
-or registered trademarks of Cloud Linux Software, Inc. in the United States
-and other countries.
+The Free Research License v1.5 (Revised)
 
-Cloud Linux Software, Inc. grants you the right to use the Packages during
-the normal operation of other software programs that call upon the
-Packages.  Cloud Linux Software, Inc. grants to you the right and license
-to copy and redistribute the unaltered Packages, but only in conjunction with
-copying or redistributing additional software packages that call upon
-the Packages during the normal course of operation and only in
-non-commercial distributions permitted under AlmaLinux's trademark
-guidelines found at http://www.cloudlinux.com/about/trademark/ 
-or under a separate written license agreement from CloudLinux.  Cloud Linux,
-Inc. grants to you the right and license to copy and redistribute the
-Packages in commercial distributions without additional license or
-permission, but only in conjunction with copying or redistributing
-additional software packages that call upon the Packages during the
-normal course of operation and only when all of the Marks have been
-removed or replaced within the Packages.  All such rights are granted
-to you without fee, provided that:
+Copyright (c) 2021 Morales Research Corporation
 
-1. The above copyright notice and this license are included with each
-copy you make, and they remain intact and are not altered, deleted, or
-modified in any way;
-2. You do not modify the appearance of any or all of
-the Logos in any manner; and
-3. You do not use any or all of the Logos as, or as part of, a
-trademark, trade name, or trade identifier; or in any other fashion
-except as set forth in this license.
 
-NO WARRANTY.  THIS PACKAGE IS PROVIDED "AS IS" AND ANY EXPRESS OR
-IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED.  IN NO EVENT SHALL CLOUD LINUX SOFTWARE, INC. BE LIABLE FOR
-ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-DAMAGES(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-SERVICES; LOSS OF USE, DATA OR PROFITS; OR BUSINESS INTERRUPTION)
-HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
-STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
-IN ANY WAY OUT OF THE USE OF THIS PACKAGE, EVEN IF ADVISED OF THE
-POSSIBILITY OF SUCH DAMAGE.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+
+of this software and associated documentation files (the "Software"), to deal
+
+in the Software without restriction, including without limitation the rights
+
+to use, modify, merge, publish, distribute, and to permit persons to whom the Software is
+
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+
+copies or substantial portions of the Software.
+
+
+
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

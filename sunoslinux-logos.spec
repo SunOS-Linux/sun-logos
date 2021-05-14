@@ -9,7 +9,7 @@ Release:    1%{?dist}.sol
 Summary:    Sun/OS Linux-related icons and pictures
 
 Group:      System Environment/Base
-URL:        http://www.almalinux.com
+URL:        https://github.com/SunOS-Linux/
 # No upstream, done in internal git
 Source0:    sunoslinux-logos-%{version}.tar.xz
 License:    Licensed only for approved usage, see COPYING for details.

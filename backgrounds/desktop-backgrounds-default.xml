@@ -3,25 +3,25 @@
 <wallpapers>
     <wallpaper deleted="false">
         <name>Abstract Dark</name>
-        <filename>/usr/share/backgrounds/Alma-abstract-dark.xml</filename>
+        <filename>/usr/share/backgrounds/Sun-abstract-dark.xml</filename>
         <options>zoom</options>
     </wallpaper>
 
     <wallpaper deleted="false">
         <name>Abstract Light</name>
-        <filename>/usr/share/backgrounds/Alma-abstract-light.xml</filename>
+        <filename>/usr/share/backgrounds/Sun-abstract-light.xml</filename>
         <options>zoom</options>
     </wallpaper>
 
     <wallpaper deleted="false">
         <name>Dark</name>
-        <filename>/usr/share/backgrounds/Alma-dark.xml</filename>
+        <filename>/usr/share/backgrounds/Sun-dark.xml</filename>
         <options>zoom</options>
     </wallpaper>
 
     <wallpaper deleted="false">
         <name>Light</name>
-        <filename>/usr/share/backgrounds/Alma-light.xml</filename>
+        <filename>/usr/share/backgrounds/Sun-light.xml</filename>
         <options>zoom</options>
     </wallpaper>
 </wallpapers>

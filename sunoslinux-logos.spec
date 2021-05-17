@@ -4,7 +4,7 @@
 %global debug_package %{nil}
 
 Name:       sunoslinux-logos
-Version:    81.1
+Version:    81.2
 Release:    rc%{?dist}.sol
 Summary:    Sun/OS Linux-related icons and pictures
 
@@ -218,6 +218,9 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 
 
 %changelog
+* Mon May 17 2021 Abdon Morales <abdon.morales13_2022@outlook.com> 81.2-rc.sol
+- new package built with tito
+- Adding new images/logos to packages with updated backgrounds
 * Mon May 3 2021 Abdon Morales <abdon.morales13_2022@outlook.com> - 81.1-1.sol
 - Add Sun/OS Linux brands
 - Add Sun/OS Linux backgrounds

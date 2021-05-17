@@ -5,7 +5,7 @@
 
 Name:       sunoslinux-logos
 Version:    81.1
-Release:    rc7%{?dist}.sol
+Release:    rc%{?dist}.sol
 Summary:    Sun/OS Linux-related icons and pictures
 
 Group:      System Environment/Base

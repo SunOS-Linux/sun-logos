@@ -211,7 +211,7 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 %dir %{_datadir}/ipa/ui
 %dir %{_datadir}/ipa/ui/images
 
-%files -n almalinux-backgrounds
+%files -n sunoslinux-backgrounds
 %license COPYING
 %{_datadir}/backgrounds/*
 %{_datadir}/gnome-background-properties/*

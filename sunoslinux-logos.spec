@@ -20,7 +20,7 @@ Provides:   redhat-logos = %{version}-%{release}
 Provides:   system-logos = %{version}-%{release}
 
 Conflicts:  anaconda-images <= 10
-##Conflicts:  almalinux-artwork <= 5.0.5
+##Conflicts:  sunoslinux-artwork <= 5.0.5
 
 # For splashtolss.sh
 %ifarch x86_64 i686
@@ -61,7 +61,7 @@ Provides:  redhat-backgrounds = %{version}-%{release}
 Provides:  system-backgrounds = %{version}-%{release}
 Requires:  sunoslinux-logos = %{version}-%{release}
 
-%description -n almalinux-backgrounds
+%description -n sunoslinux-backgrounds
 Licensed only for approved usage, see COPYING for details.
 
 

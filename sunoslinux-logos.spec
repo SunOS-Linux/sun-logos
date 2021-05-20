@@ -4,8 +4,8 @@
 %global debug_package %{nil}
 
 Name:       sunoslinux-logos
-Version:    81.1
-Release:    1%{?dist}.sol
+Version:    81.2
+Release:    rc%{?dist}.sol
 Summary:    Sun/OS Linux-related icons and pictures
 
 Group:      System Environment/Base
@@ -20,7 +20,7 @@ Provides:   redhat-logos = %{version}-%{release}
 Provides:   system-logos = %{version}-%{release}
 
 Conflicts:  anaconda-images <= 10
-##Conflicts:  almalinux-artwork <= 5.0.5
+##Conflicts:  sunoslinux-artwork <= 5.0.5
 
 # For splashtolss.sh
 %ifarch x86_64 i686
@@ -61,7 +61,7 @@ Provides:  redhat-backgrounds = %{version}-%{release}
 Provides:  system-backgrounds = %{version}-%{release}
 Requires:  sunoslinux-logos = %{version}-%{release}
 
-%description -n almalinux-backgrounds
+%description -n sunoslinux-backgrounds
 Licensed only for approved usage, see COPYING for details.
 
 
@@ -211,13 +211,16 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 %dir %{_datadir}/ipa/ui
 %dir %{_datadir}/ipa/ui/images
 
-%files -n almalinux-backgrounds
+%files -n sunoslinux-backgrounds
 %license COPYING
 %{_datadir}/backgrounds/*
 %{_datadir}/gnome-background-properties/*
 
 
 %changelog
+* Mon May 17 2021 Abdon Morales <abdon.morales13_2022@outlook.com> 81.2-rc.sol
+- new package built with tito
+- Adding new images/logos to packages with updated backgrounds
 * Mon May 3 2021 Abdon Morales <abdon.morales13_2022@outlook.com> - 81.1-1.sol
 - Add Sun/OS Linux brands
 - Add Sun/OS Linux backgrounds

@@ -4,7 +4,7 @@
 %global debug_package %{nil}
 
 Name:       sunoslinux-logos
-Version:    81.2
+Version:    82.0
 Release:    1%{?dist}.sol
 Summary:    Sun/OS Linux-related icons and pictures
 

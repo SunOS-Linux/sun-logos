@@ -218,6 +218,23 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 
 
 %changelog
+* Sun May 23 2021 Abdon Morales <abdon.morales13_2022@outlook.com> 81.2-1.sol
+- Adding tar archive for sunoslinux-logos (abdon.morales13_2022@outlook.com)
+- Update README.md (abdon.morales13_2022@outlook.com)
+- Delete Makefile~ (abdon.morales13_2022@outlook.com)
+- Update tito.props (abdon.morales13_2022@outlook.com)
+- Removing old src rpm (abdon.morales13_2022@outlook.com)
+- Removing old tar (abdon.morales13_2022@outlook.com)
+- Update sunoslinux-logos.spec (abdon.morales13_2022@outlook.com)
+- Adding new files and tar (abdon.morales13_2022@outlook.com)
+- Removing old files (abdon.morales13_2022@outlook.com)
+- Adding updated tar archive (abdon.morales13_2022@outlook.com)
+- Adding missing logo file to complete the package
+  (39339393+Server2356@users.noreply.github.com)
+- Removing old logos from AlmaLinux to Sun/OS Linux
+  (39339393+Server2356@users.noreply.github.com)
+- Update README.md (abdon.morales13_2022@outlook.com)
+
 * Mon May 17 2021 Abdon Morales <abdon.morales13_2022@outlook.com> 81.2-rc.sol
 - new package built with tito
 - Adding new images/logos to packages with updated backgrounds

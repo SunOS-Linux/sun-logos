@@ -5,7 +5,7 @@
 
 Name:       sunoslinux-logos
 Version:    81.2
-Release:    1%{?dist}.sol
+Release:    2%{?dist}.sol
 Summary:    Sun/OS Linux-related icons and pictures
 
 Group:      System Environment/Base
@@ -218,6 +218,16 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 
 
 %changelog
+* Mon May 24 2021 Unknown name 81.2-2.sol
+- Updating spec file because of a minor bug
+  (abdonmoralesjr@localhost.localdomain)
+- Adding updated tar for Sun/OS Linux 8 (abdonmoralesjr@localhost.localdomain)
+- Adding the correct extension for sunoslinux-logos
+  (39339393+Server2356@users.noreply.github.com)
+- Adding the correct extension (39339393+Server2356@users.noreply.github.com)
+- Adding source rpm to GitHub for Sun/OS Linux 8 Logo
+  (abdonmoralesjr@localhost.localdomain)
+
 * Sun May 23 2021 Abdon Morales <abdon.morales13_2022@outlook.com> 81.2-1.sol
 - Adding tar archive for sunoslinux-logos (abdon.morales13_2022@outlook.com)
 - Update README.md (abdon.morales13_2022@outlook.com)

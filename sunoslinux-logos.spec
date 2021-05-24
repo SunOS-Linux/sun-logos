@@ -5,7 +5,7 @@
 
 Name:       sunoslinux-logos
 Version:    81.2
-Release:    2%{?dist}.sol
+Release:    3%{?dist}.sol
 Summary:    Sun/OS Linux-related icons and pictures
 
 Group:      System Environment/Base
@@ -218,7 +218,10 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 
 
 %changelog
-* Mon May 24 2021 Unknown name 81.2-2.sol
+* Mon May 24 2021 Abdon Morales
+- Updating release tagger (abdon.morales13_2022@outlook.com)
+
+* Mon May 24 2021 Unknown name 81.2-3.sol
 - Updating spec file because of a minor bug
   (abdonmoralesjr@localhost.localdomain)
 - Adding updated tar for Sun/OS Linux 8 (abdonmoralesjr@localhost.localdomain)

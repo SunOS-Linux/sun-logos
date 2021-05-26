@@ -5,7 +5,7 @@
 
 Name:       sunoslinux-logos
 Version:    81.2
-Release:    3%{?dist}.sol
+Release:    4%{?dist}.sol
 Summary:    Sun/OS Linux-related icons and pictures
 
 Group:      System Environment/Base
@@ -218,6 +218,16 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 
 
 %changelog
+* Tue May 25 2021 Unknown name 81.2-4.sol
+- Updating internal git repo before release
+  (abdonmoralesjr@localhost.localdomain)
+- Addding new JPG extension for the background files
+  (39339393+Server2356@users.noreply.github.com)
+- Removing old JPEG extension (39339393+Server2356@users.noreply.github.com)
+- Adding new bugfixes for background (screen blanks out)
+  (39339393+Server2356@users.noreply.github.com)
+- Update README.md (abdon.morales13_2022@outlook.com)
+
 * Mon May 24 2021 Abdon Morales
 - Updating release tagger (abdon.morales13_2022@outlook.com)
 

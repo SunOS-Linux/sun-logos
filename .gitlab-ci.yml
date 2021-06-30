@@ -1,0 +1,23 @@
+default:
+  image: centos:latest
+
+job:
+  before_script:
+    - dnf install -y rpmdevtools epel-release
+    - dnf install -y tito
+  stage: build
+  script:
+    - rpmdev-setuptree
+    - cp sunoslinux-logos.spec ~/rpmbuild/SPECS/
+    - cp *.tar.xz ~/rpmbuild/SOURCES/
+    - cd ~/rpmbuild/SPECS/
+    - rpmbuild -bs sunoslinux-logos.spec
+    - rpmbuild -bb sunoslinux-logos.spec
+    - cp -r ~/rpmbuild/RPMS/* /builds/morales-research-corporation/morales-research-corporation/SunOS-Linux/sunoslinux-logos/binaries/
+    - cd /builds/morales-research-corporation/morales-research-corporation/SunOS-Linux/sunoslinux-logos/binaries/
+    - ls -la
+  artifacts:
+    public: true
+    untracked: true
+    paths:
+      - binaries/*

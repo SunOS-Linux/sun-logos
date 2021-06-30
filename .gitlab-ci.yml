@@ -1,5 +1,5 @@
 default:
-  image: almalinux:8.4
+  image: centos:7.9.2009
 
 job:
   before_script:

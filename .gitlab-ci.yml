@@ -7,14 +7,15 @@ job:
     - yum install -y tito hardlink netpbm-progs syslinux-perl make
   stage: build
   script:
+    - ls -la /builds
     - rpmdev-setuptree
     - cp sunoslinux-logos.spec ~/rpmbuild/SPECS/
     - cp *.tar.xz ~/rpmbuild/SOURCES/
     - cd ~/rpmbuild/SPECS/
     - rpmbuild -bs sunoslinux-logos.spec
     - rpmbuild -bb sunoslinux-logos.spec
-    - cp -r ~/rpmbuild/RPMS/* /builds/morales-research-corporation/SunOS-Linux/sunoslinux-logos/binaries/
-    - cd /builds/morales-research-corporation/SunOS-Linux/sunoslinux-logos/binaries/
+    - cp -r ~/rpmbuild/RPMS/* /builds/morales-research-corporation/SunOS-Linux/sunoslinux-logos/binaries
+    - cd /builds/morales-research-corporation/SunOS-Linux/sunoslinux-logos/binaries
     - ls -la
   artifacts:
     public: true

@@ -1,10 +1,10 @@
 default:
-  image: centos:latest
+  image: centos:7.9.2009
 
 job:
   before_script:
-    - dnf install -y rpmdevtools epel-release
-    - dnf install -y tito hardlink netpbm-progs syslinux-perl
+    - yum install -y rpmdevtools epel-release
+    - yum install -y tito hardlink netpbm-progs syslinux-perl
   stage: build
   script:
     - rpmdev-setuptree

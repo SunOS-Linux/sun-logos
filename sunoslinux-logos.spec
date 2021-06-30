@@ -131,7 +131,8 @@ cp -a ipa/*.jpg $RPM_BUILD_ROOT%{_datadir}/ipa/ui/images
 
 # save some dup'd icons
 # Except in /boot. Because some people think it is fun to use VFAT for /boot.
-/usr/bin/hardlink -v %{buildroot}/usr
+/usr/sbin/hardlink -v %{buildroot}/usr
+# This only applies for CentOS 7 when building the RPMS
 
 %ifnarch x86_64 i686
 rm -f $RPM_BUILD_ROOT%{_datadir}/anaconda/boot/splash.lss

@@ -4,7 +4,7 @@ default:
 job:
   before_script:
     - dnf install -y rpmdevtools epel-release
-    - dnf install -y tito
+    - dnf install -y tito hardlink netpbm-progs syslinux-perl
   stage: build
   script:
     - rpmdev-setuptree

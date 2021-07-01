@@ -2,6 +2,7 @@
 # Package is only arch specific due to missing deps on arm
 # Debuginfo package is useless.
 %global debug_package %{nil}
+%global dist el8
 
 Name:       sunoslinux-logos
 Version:    81.3

@@ -4,8 +4,8 @@
 %global debug_package %{nil}
 
 Name:       sunoslinux-logos
-Version:    81.2
-Release:    5%{?dist}.sol
+Version:    81.3
+Release:    1%{?dist}.sol
 Summary:    Sun/OS Linux-related icons and pictures
 
 Group:      System Environment/Base
@@ -219,6 +219,11 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 
 
 %changelog
+* Thu Jul 01 2021 Abdon Morales Jr <abdon.morales@moralesresearch.org> 81.3-1.sol
+- Update tito.props (abdon.morales13_2022@outlook.com)
+- Automatic commit of package [sunoslinux-logos] minor release [81.2-5.sol].
+  (abdon.morales@moralesresearch.org)
+
 * Thu Jul 01 2021 Abdon Morales Jr <abdon.morales@moralesresearch.org> 81.2-5.sol
 - Update README.md (abdon.morales13_2022@outlook.com)
 - Update README.md (abdon.morales13_2022@outlook.com)

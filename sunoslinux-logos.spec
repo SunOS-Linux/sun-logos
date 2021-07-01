@@ -5,7 +5,7 @@
 
 Name:       sunoslinux-logos
 Version:    81.2
-Release:    4%{?dist}.sol
+Release:    5%{?dist}.sol
 Summary:    Sun/OS Linux-related icons and pictures
 
 Group:      System Environment/Base
@@ -219,6 +219,31 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 
 
 %changelog
+* Thu Jul 01 2021 Abdon Morales Jr <abdon.morales@moralesresearch.org> 81.2-5.sol
+- Update README.md (abdon.morales13_2022@outlook.com)
+- Update README.md (abdon.morales13_2022@outlook.com)
+- Update README.md (abdon.morales13_2022@outlook.com)
+- Adding more information about source code (abdon.morales13_2022@outlook.com)
+- Removing source code using this repository as rpm repo build
+  (39339393+Server2356@users.noreply.github.com)
+- Adding correct tar (abdon.morales13_2022@outlook.com)
+- Delete sunoslinux-logos-81.3.tar (abdon.morales13_2022@outlook.com)
+- Adding new logo tar (abdon.morales13_2022@outlook.com)
+- Updating file type (abdon.morales13_2022@outlook.com)
+- Removing old tar (abdon.morales13_2022@outlook.com)
+- Update README.md (abdon.morales13_2022@outlook.com)
+- Create .gitkeep (abdon.morales13_2022@outlook.com)
+- Updating directory piping (abdon.morales13_2022@outlook.com)
+- Update .gitlab-ci.yml (abdon.morales13_2022@outlook.com)
+- Update sunoslinux-logos.spec (abdon.morales13_2022@outlook.com)
+- Update .gitlab-ci.yml (abdon.morales13_2022@outlook.com)
+- Update .gitlab-ci.yml (abdon.morales13_2022@outlook.com)
+- Switching build environment to AlmaLinux (abdon.morales13_2022@outlook.com)
+- Update .gitlab-ci.yml (abdon.morales13_2022@outlook.com)
+- Adding missing deps to build the package (abdon.morales13_2022@outlook.com)
+- Filling in CI/CD info for package building for rpm
+  (abdon.morales13_2022@outlook.com)
+
 * Tue May 25 2021 Unknown name 81.2-4.sol
 - Updating internal git repo before release
   (abdonmoralesjr@localhost.localdomain)

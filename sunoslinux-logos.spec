@@ -11,7 +11,7 @@ Summary:    Sun/OS Linux-related icons and pictures
 Group:      System Environment/Base
 URL:        https://github.com/SunOS-Linux/
 # No upstream, done in internal git
-Source0:    sunoslinux-logos-%{version}.tar.xz
+Source0:    sunoslinux-logos-%{version}.tar.gz
 License:    Licensed only for approved usage, see COPYING for details.
 
 Obsoletes:  redhat-logos < 81.1

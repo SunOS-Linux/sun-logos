@@ -2,11 +2,10 @@
 # Package is only arch specific due to missing deps on arm
 # Debuginfo package is useless.
 %global debug_package %{nil}
-%global dist el8
 
 Name:       sunoslinux-logos
 Version:    81.3
-Release:    1%{?dist}.sol
+Release:    1%el8.sol
 Summary:    Sun/OS Linux-related icons and pictures
 
 Group:      System Environment/Base

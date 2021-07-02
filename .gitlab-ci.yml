@@ -14,11 +14,11 @@ job:
     - cd ~/rpmbuild/SPECS/
     - rpmbuild -bs sunoslinux-logos.spec
     - rpmbuild -bb sunoslinux-logos.spec
-    - cp -r ~/rpmbuild/RPMS/* /builds/morales-research-corporation/SunOS-Linux/sunoslinux-logos/binaries
-    - cd /builds/morales-research-corporation/SunOS-Linux/sunoslinux-logos/binaries
+    - cp -r ~/rpmbuild/RPMS/* /builds/morales-research-corporation/SunOS-Linux/sunoslinux-logos/bin
+    - cd /builds/morales-research-corporation/SunOS-Linux/sunoslinux-logos/bin
     - ls -la
   artifacts:
     public: true
     untracked: true
     paths:
-      - binaries/*
+      - bin/*

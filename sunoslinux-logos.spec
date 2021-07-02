@@ -219,6 +219,15 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 
 
 %changelog
+* Fri Jul 02 2021 Abdon Morales Jr <abdon.morales@moralesresearch.org> 81.3-2.sol
+- Updating release number(use --keep-version in Tito)
+  (abdon.morales13_2022@outlook.com)
+- Update sunoslinux-logos.spec (abdon.morales13_2022@outlook.com)
+- Update sunoslinux-logos.spec (abdon.morales13_2022@outlook.com)
+- Update README.md (abdon.morales13_2022@outlook.com)
+- Update sunoslinux-logos.spec (abdon.morales13_2022@outlook.com)
+- Update sunoslinux-logos.spec (abdon.morales13_2022@outlook.com)
+
 * Thu Jul 01 2021 Abdon Morales Jr <abdon.morales@moralesresearch.org> 81.3-1.sol
 - Update tito.props (abdon.morales13_2022@outlook.com)
 - Automatic commit of package [sunoslinux-logos] minor release [81.2-5.sol].

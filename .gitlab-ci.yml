@@ -10,7 +10,7 @@ job:
     - ls -la /builds
     - rpmdev-setuptree
     - cp sunoslinux-logos.spec ~/rpmbuild/SPECS/
-    - cp *.tar.xz ~/rpmbuild/SOURCES/
+    - cp *.tar.gz ~/rpmbuild/SOURCES/
     - cd ~/rpmbuild/SPECS/
     - rpmbuild -bs sunoslinux-logos.spec
     - rpmbuild -bb sunoslinux-logos.spec
